@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#contenedor__filtro{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background: linear-gradient(to bottom, #beb2f9, #ffff);
+}
+
+.contenedor__padre img {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 100px;
+    
+
+}
+.contenedor__padre{
+    background: rgba(0, 0, 0, .2);
+    width: 22rem;
+    height: 20rem;
+   text-align: center;
+   margin: auto;
+   padding-top: 80px;
+   border-radius: 20px 20px 20px 20px;
+   
+}
+.contenedor__padre h1{
+    color:#656271;
+
+}
+.contenedor__padre label{
+    position: relative;
+    right: 7.4rem;
+    top: 1.2rem;
+    color: #3d3a45;
+}
+.contenedor__padre input{
+    border: none;
+    border-radius: 2px;
+    padding: 3px 3px;
+    background-color: #d9d3f7;
+    color: #4f4b4b;
+}
+.contenedor__padre button{
+    padding: 2px 10px;
+    border-radius: 4px;
+    border: none;
+    background: #beb2f9;
+    color: #ffffff;
+}
+.contenedor__padre button:hover {
+    background: #ffffff;
+    color: #b2a5f7;
+    transition: 0.5s;
+}
+@media ( max-width: 600px){
+    
+   #contenedor__filtro{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        background: linear-gradient(to bottom, #beb2f9, #ffff);
+  
+}
+.contenedor__padre{
+    background: rgba(0, 0, 0, .2);
+    width: 16rem;
+    height: 15rem;
+   text-align: center;
+   margin: auto;
+   padding: 2rem 0rem;
+   border-radius: 20px 20px 20px 20px;
+}
+.contenedor__padre label{
+    position: relative;
+    right: 4.4rem;
+    top: 1.2rem;
+    color: #3d3a45;
+}
+.contenedor__padre input{
+    width: 8rem;
+    border: none;
+    border-radius: 2px;
+    padding: 3px 3px;
+    background-color: #d9d3f7;
+    color: #4f4b4b;
+    position: relative;
+    left: 1.8rem;
+}
+.contenedor__padre button{
+    padding: 2px 10px;
+    border-radius: 4px;
+    border: none;
+    background: #beb2f9;
+    color: #ffffff;
+    position: relative;
+    top: 1rem;
+}
+.contenedor__padre button:hover {
+    background: #ffffff;
+    color: #b2a5f7;
+    transition: 0.5s;
+}
+.contenedor__padre h1{
+    color:#49494a;
+}
+
+}
+

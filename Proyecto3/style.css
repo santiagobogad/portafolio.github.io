@@ -1,0 +1,784 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: gainsboro;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    color: #8993A4;
+}
+
+a {
+    text-decoration: none;
+}
+
+header , main,form ,footer {
+    width: 1100px;
+    margin: auto;
+    padding: 30px;
+    background: #ffffff;
+    justify-content: center;
+}
+
+header , main,form,footer{
+        box-shadow: 0px 5px 4px  #aca7a7;
+}
+
+footer{
+    border-top: 1px solid gray;
+    border-radius: 0px 0px 20px 20px;
+}
+
+header{
+    background: linear-gradient(to bottom, #eae6ff, #ffff);
+     border-radius: 20px 20px 0px 0px;
+}
+
+#contenedor__login  {
+    width: 100%;
+    height: 28rem;
+}
+
+.conedor__textp img {
+    position: relative;
+    bottom: .5rem;
+    left: 10px;
+    width: 100px;
+}
+
+.conedor__textp a{
+    position: relative;
+   left: 77%;
+   bottom: 18px;
+   padding: 10px;
+   color: #2e0de8;
+   margin: 3px;
+  border-radius: 10px;
+}
+
+.conedor__textp a:hover {
+    background: #0065ff;
+   color: #ecebf2;
+   box-shadow: 5px 5px 8px rgb(143, 137, 137);
+}
+
+.contenedor__teximg img{
+    width: 400px;
+    background: #ded9f9;
+    float: right;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+    top: 90px;
+    border-radius: 10px;
+}
+
+.contenedor__teximg p , .contenedor__teximg h1 , .input{
+    margin: auto;
+    position: relative;
+    width: 55%;
+    right: 180px;
+    top: 140px;
+    height: 100px;
+}
+
+input :placeholder-shown{
+    color: rgb(218, 223, 223);
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.input button{
+    border: none;
+    background: #0065ff;
+    color: #ecebf2;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.input button:hover{
+    color: rgb(42, 6, 245);
+    background: rgb(246, 241, 241);
+}
+
+.contenedor__padre__main {
+    margin-top: 20px;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+
+.contenedor__tex__main  {
+    position: relative;
+    left: 155px;
+    width: 780px;
+    height: 150px;
+}
+
+.contenedor__tex__main p{
+    padding: 10px;
+}
+
+.contenedor__main__img img{
+    width: 700px;
+    margin-top: 40px;
+}
+
+.contenedor__tex__main a {
+    color: #0065ff;
+    padding: 5px;
+    position: relative;
+    top: 25px;
+    padding-right: 40px;
+    border-radius: 5px;
+    border: 1px solid #8993A4;
+}
+
+.contenedor__tex__main a:hover{
+    background: #0065ff;
+    color: #ffffff;
+    transition: .5s;
+}
+
+.fa-solid{
+    position: relative;
+    left: 20px;
+    top: 3px;
+    color: #8993A4;
+}
+
+.iconos {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.iconos img{
+    width: 100px;
+    padding: 15px;
+    color: #8993A4;
+}
+
+.contenedortext {
+    width: 50%;
+    height: 200px;
+    position: relative;
+    left: 80px;
+}
+
+.contenedortext h2{
+    width: 20rem;
+    padding-bottom: 1rem;
+}
+
+#contedor__padrearticle .conterdor__hijo {
+    width: 100%;
+    height: 390px;
+}
+
+.conterdor__hijo img {
+    width: 280px;
+    height: 250px;
+    float: left;
+    position: relative;
+    left: 100px;
+    bottom: 90px;  
+}
+
+.texarticle {
+    position: relative;
+    width: 45%;
+    left: 40%;
+    top: 120px;
+}
+
+.texarticle a, .texarticle1 a{
+    color: #aba5a5;
+    border: 1px solid #6c6d70;
+    border-radius: 1rem;
+    padding: 2px 10px;
+    position: relative;
+    top: 10px;
+}
+
+#contedor__padrearticle .conterdor__hijo1 {
+    width: 100%;
+    height: 23rem;  
+}
+
+.conterdor__hijo1 .img1 {
+    width: 280px;
+    height: 250px;
+    float: right;
+    position: relative;
+    right: 150px;
+    bottom: 90px; 
+}
+
+.texarticle1 {
+    position: relative;
+    width: 45%;
+    left: 100px;
+    top: 120px;
+}
+
+#contenedor__padre__final , #contenedor__padre__final1{
+    position: relative;
+    left: 9.5%;
+    width: 40%;
+    border-bottom: 1px solid rgb(93, 89, 89);
+    border-top: 1px solid rgb(91, 89, 89) ; 
+}
+
+#contenedor__padre__final {
+    left: 9.6%;
+}
+
+#contenedor__padre__final1{
+    position: relative;
+    left: 49.6%;
+    bottom: 9.5rem;
+}
+
+.contenedor__final, .contenedor__final1{
+    width: 400px;
+    height: 150px;
+}
+
+.contenedor__final img{
+    width: 150px;
+    height: 130px;
+    float: left;
+    padding-right: 20px;
+}
+
+.contenedor__final1 img{
+    width: 10rem;
+    height: 130px;
+    float: left;
+    padding-right: 10px;  
+}
+
+ .tex__final{
+    position: relative;
+    top: 20px;
+    width: 380px;
+    height: 80%;
+}
+
+ .tex__final1{
+
+    position: relative;
+    top: 20px;
+    width: 380px;
+    height: 80%;
+}
+
+    .tex__final a , .tex__final1 a{
+    position: relative;
+    top: .8rem;  
+}
+
+.form {
+    width: 100%;
+    height: 250px;    
+}
+
+.form img {
+    width: 43rem;
+    height: 200px;
+    opacity: 75%;
+    border-radius: 15px;
+    position: relative;
+    left: 18%;
+}
+
+ .form__hijo{
+    width: 455px;
+    position: relative;
+    left: 30%;
+    bottom: 66%;   
+}
+
+.form__hijo h2 {
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.form__hijo input{
+    height: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 0px 4px 4px;
+    box-shadow: 0px 3px 20px 0px #131518;
+}
+
+
+.form__hijo button {
+    padding: 6px 25px 6px 25px;
+    border-radius: 5px;
+    background: #1fdaf3 ;
+    color: #ffffff;
+    border: none;
+    box-shadow: 0px 3px 20px 0px #131518;
+}
+
+.form__hijo button:hover {
+    background: #ffffff;
+    color:  #1fdaf3;
+}
+
+.logos__tex{
+    width: 100%;
+    height: 60px; 
+    position: relative;
+    left: -31px;
+    bottom: 0px;
+
+}
+ .logos__tex img{
+    width: 100px;
+    height: 30px;
+    padding: 10px 20px;
+    float: right;
+    position: relative;
+    right: 230px;
+    bottom: 13px;
+    
+}
+.logos__tex h4 {
+    position: relative;
+    right: 150px;
+    top: 20px;
+    text-align: center;
+    color: #8993A4;
+}
+.logos {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: 15px; 
+    
+
+}
+.clearfix{
+    clear: both;
+}
+.logos a{
+    padding: 10px;
+    color: inherit;
+}
+.logos select {
+    padding: 5px ;
+    border: 1px solid #dcddde;
+}
+.logo{
+    width: 100%;
+   
+}
+.logo img{
+    width: 100px;
+    text-align: center;
+    position: relative;
+    left: 45%;
+}
+.span{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+/*Aqui ira el media queri*/
+
+@media (max-width:528px) {
+
+
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background: gainsboro;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    p {
+        color: #8993A4;
+        font-size: 1rem;
+    }
+    a {
+        text-decoration: none;
+    }
+    h1, h2{
+        font-size: 1.3rem;
+    }
+    header , main,form ,footer {
+        width: 500px;
+        margin: auto ;
+        background: #ffffff;
+        justify-content: center;
+    }
+
+    header{
+        background: linear-gradient(to bottom, #eae6ff, #ffff);
+        border-radius: 20px 20px 0px 0px;
+    }    
+    
+    #contenedor__login  {
+        width: 100%;
+        height:600px ;
+        
+    }
+   .conedor__textp{
+        width: 100%;
+        height: 50px;
+   }
+    
+    .conedor__textp a{
+        position: relative;
+        left: 52%;
+        padding: 10px;
+        color: #2e0de8;
+        margin: 3px;
+        border-radius: 10px;
+      
+    } 
+    .conedor__textp a:hover{
+        background: #0065ff;
+        color: #ecebf2;
+        box-shadow: 5px 5px 8px rgb(143, 137, 137);
+   }
+    .conedor__textp img {
+        position: relative;
+        bottom: .5rem;
+        left: 10px;
+        width: 100px; 
+    }
+    .contenedor__teximg {
+        width: 100%;
+        height: 100px;
+    }
+        
+    .contenedor__teximg img{
+        width: 60%;
+        background: #9488d7;
+        position: relative;
+        right: 15%;
+        top: 17rem;
+    }
+.contenedor__teximg h1{
+        position: absolute;
+        left: 3rem;
+        top: 4.5rem;
+        width: 25rem;
+        height: 50px;    
+    }   
+    
+    .contenedor__teximg p{
+        position: absolute;
+        width:300px;
+        left: 4rem;
+        top: 150px;
+        
+      }
+
+      .input {
+        position: absolute;
+        right: -50px;
+        top: 280px;
+        width:100%;
+        height: 50px;       
+        
+      }   
+
+    .conedor__textp a{
+        position: relative;
+        right: 10rem;
+        bottom: 18px;
+        padding: 10px;
+        color: #2e0de8;
+        margin: 3px;
+        border-radius: 10px;
+    
+    }
+  
+    
+    .conedor__textp a:hover {
+        background: #0065ff;
+        color: #ecebf2;
+        box-shadow: 5px 5px 8px rgb(143, 137, 137);
+    }
+
+    .contenedor__padre__main {
+        margin-top: 20px;
+        width: 100%;
+        height: 550px;
+        
+        text-align: center;
+    }
+
+    .contenedor__tex__main  {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 150px;
+    }
+    .contenedor__tex__main p{
+        padding: 10px;
+        position: relative;
+        left: 0;
+    }
+    .contenedor__main__img{
+        width: 100%;
+        height: 100%;
+    }
+    .contenedor__main__img img{
+        width: 90%;
+        margin-top:40px;
+    }
+    .contenedor__tex__main a {
+        color: #0065ff;
+        padding: 5px;
+        position: relative;
+        top: 25px;
+        padding-right: 40px;
+        border-radius: 5px;
+        border: 1px solid #8993A4;
+    }
+    .contenedor__tex__main a:hover{
+        background: #0065ff;
+        color: #ffffff;
+        transition: .5s;
+    }    
+
+
+
+     
+    .fa-solid{
+        position: relative;
+        left: 20px;
+        top: 3px;
+        color: #8993A4;
+    }
+    .iconos {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        position: relative;
+        top: -30px;
+    }
+    .iconos img{
+        width: 80px;
+        padding: 15px;
+        color: #8993A4;
+    } 
+
+    .contenedortext {
+        width: 100%;
+        height: 100px;
+        position: relative;
+        left: 0px;
+        top: 0;
+    }
+    .contenedortext h2{
+        width: 100%;
+    }
+    #contedor__padrearticle .conterdor__hijo ,   #contedor__padrearticle  .conterdor__hijo1{
+        width: 100%;
+        height: 100%;
+    
+    
+    }
+    .conterdor__hijo img,.conterdor__hijo1 .img1 {
+        width: 50%;
+        height: 30%;
+        position: relative;
+        left: 0;
+        top: 7rem;
+        padding-bottom: 70px;
+        
+    }
+    
+    .texarticle ,.texarticle1 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 120px;
+        padding: 0px 0px 40px 0px;
+   
+    }
+    .texarticle a, .texarticle1 a{
+        color: #aba5a5;
+        border: 1px solid #6c6d70;
+        border-radius: 1rem;
+        padding: 2px 10px;
+        position: relative;
+        top: 10px;
+    }
+
+    #contenedor__padre__final {
+       width: 80%;
+       position: relative;
+       top: 8.9rem;
+       height:300px;
+       border-bottom:2px solid #0a0b0b;
+       border-top:2px solid #0a0b0b;
+    }
+
+    .contenedor__final img{
+        width: 40%;
+        padding-top: 20px;
+    }
+
+  
+    .tex__final{
+        position: relative;
+        width: 50%;
+       padding: 0px 8px; 
+     }
+
+     #contenedor__padre__final1{
+       width: 40%;
+       position: relative;
+       top: -10rem;
+       height:300px;        
+     }
+     .contenedor__final1 img{
+    
+        width: 85%;
+        height: 130px;
+        padding-top: 20px;
+    }
+   
+    .contenedor__final1{
+        width: 200px;
+    }
+
+    .tex__final1{
+     
+        position: relative;
+        width: 100%;
+        padding: 0px 8px;
+     
+    }
+    .form {
+        width: 100%;
+        height: 100px;
+        
+    }
+    .form img {
+        width: 100%;
+        height: 200px;
+        opacity: 75%;
+        border-radius: 15px;
+        position: relative;
+        left: 0;
+        top:-120px
+    }
+     .form__hijo{
+        width: 80%;
+        height: 20px;
+        position: relative;
+        top: -16.8rem;
+        left: 1rem;
+        
+    }
+    .form__hijo h2 {
+        color: #ffffff;
+        
+    }
+    .form__hijo input{
+        height: 20px;
+        margin: 10px;
+        border: none;
+        border-radius: 5px;
+        padding: 4px 0px 4px 4px;
+        box-shadow: 0px 3px 20px 0px #131518;
+    }
+    
+    
+    .form__hijo button {
+        padding: 6px 25px 6px 25px;
+        border-radius: 5px;
+        background: #1fdaf3 ;
+        color: #ffffff;
+        border: none;
+        box-shadow: 0px 3px 20px 0px #131518;
+    }
+    .form__hijo button:hover {
+        background: #ffffff;
+        color:  #1fdaf3;
+    }
+    .logos__tex{
+        width: 100%;
+        height: 80px; 
+        position: relative;
+        left: 2rem;
+        bottom: 0px;
+    
+    }
+     .logos__tex img{
+        width: 50px;
+        height: 30px;
+        padding: 10px 20px;
+        position: relative;
+        right:  40%;
+        bottom: 13px;
+        
+    }
+    .logos__tex h4 {
+        position: relative;
+        right: 50px;
+        top: -10px;
+        text-align: center;
+        color: #8993A4;
+    }
+    .logos {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        margin: 15px; 
+    
+    }
+    .clearfix{
+        clear: both;
+    }
+    .logos a{
+        color: inherit;
+        position: relative;
+        padding: 0px 10px 20px 0px;
+        width: 100%;
+        right: 5rem;
+    }
+    .logos select {
+        padding: 5px;
+        position: relative;
+        left: 30%;
+        bottom: 40px;
+        max-width: 100px;
+        border: 1px solid #dcddde;
+    }
+    .logo{
+        width: 100%;
+       
+    }
+    .logo img{
+        width: 100px;
+        position: relative;
+        left: 35%;
+    }
+    .span{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 25px;
+    }
+}
